@@ -20,4 +20,5 @@ export class AppComponent implements OnInit{
   title = 'app';
   users : any;
   usersCount : any
+  sattuBogas : any;
 }
