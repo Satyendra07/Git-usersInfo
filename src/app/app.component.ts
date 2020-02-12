@@ -15,9 +15,10 @@ export class AppComponent implements OnInit{
      this.gitService.getUsers().subscribe(value =>{
        this.users = JSON.stringify(value);
        this.usersCount = this.users.length;
-     })
+     });
+
   }
-  title = 'app';
+  title = 'appp';
   users : any;
   usersCount : any
   sattuBogas : any;
